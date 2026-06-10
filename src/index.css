@@ -1,7 +1,21 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "American";
+  src: url("./assets/fonts/American Captain.ttf") format("truetype");
+}
+
+@theme{
+  --font-American: "American", sans serif;
+}
+
 html, body, #root{
   height: 100dvh;
   margin: 0;
   padding: 0;
+
+  --backtext: rgba(255, 255, 255, 0.145);
+  --redback: rgba(194, 12, 12, 0.784);
+  --purpleback: rgba(221, 11, 161, 0.784);
+  --yellowback: rgba(225, 255, 0, 0.561);
 }

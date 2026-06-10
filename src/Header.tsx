@@ -1,7 +1,7 @@
 export default function Header(){
     return(
         <header className="absolute w-full bg-neutral-900 text-white flex flex-row items-center px-3 py-4 justify-between">
-            <h2 className="text-2xl">PetShop</h2>
+            <h2 className="text-4xl ml-5 font-American text-center translate-y-1">PetCao</h2>
             <nav className="w-60">
                 <ol className="flex gap-8 text-center justify-center items-center">
                     <li className="border-b transition duration-300 ease-in-out border-transparent hover:border-white cursor-pointer">Pedidos</li>
